@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>渉外局紹介</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/short.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148349580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148349580-1");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="drawer drawer--right">
+    <script>
+      $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+  </script>
+
+    <div class="sakura-wrapper">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+      <div class="menu-under"></div>
+
+      <script>
+        menu();
+      </script>
+      <header class="header">
+        <a class="header-logo" href="index.html"
+          ><img src="img/logo.png" alt="ヘッダーロゴ"
+        /></a>
+      </header>
+
+      <div class="main-content">
+        <h1 class="title">渉外局紹介</h1>
+        <div class="main-text">
+          <img class="big-img" src="./img/shogai.jpg" alt="渉外局の写真" />
+          <h2 class="sub-title">渉外局の役割</h2>
+          <p>
+            明大祭開催のためのお金や物資を獲得し、その際に関わった方々とのより良い関係を目指していくことが渉外局の役割です。活動の対象が、<b>社会で活躍されている方々</b>になるので、普通の学生生活では味わうことができない貴重な体験をすることができます！
+          </p>
+          <h2 class="sub-title">渉外局が会議でやること</h2>
+          <p>
+            渉外局の活動のメインは会議ではなく、下記のような実際の活動になります！<br />
+            明治大学の各キャンパス（生田キャンパスを除く）周辺地域や企業、校友（OB・OG）の方々を対象に3つの部門に分かれて活動しています。そのため実際に各キャンパス周辺地域のお店の方々や企業の方々、校友の方々と<b>直接交流</b>させていただくことで、お金や物資を集めてきます。<br />
+            明大祭開催にこのような関係者の方々からの協力は必須であり、その感謝の意味も込め、<b>地域イベントへの参加</b>や<b>清掃活動</b>などの地域に貢献するような活動も行っています。<br />
+            このような活動によって、渉外局は<b>明大祭を創り上げる基盤</b>になります！
+          </p>
+          <h2 class="sub-title">渉外局の会議日</h2>
+          <p>
+            局会議：毎週火曜日19:00～<br />
+            部門会議：週1回（曜日は未定）<br />
+            ※渉外局には3部門あり、部門によって曜日が異なります。
+          </p>
+          <h2 class="sub-title">レクの様子</h2>
+          <img class="big-img" src="./img/shogai_rec.jpg" alt="渉外局のレク" />
+          <p>
+            会議後のご飯はもちろんのこと、半期に1回ずつ行われる合宿やレクも行っています。実行委員としての楽しさだけではなく、単純に楽しいと思ってもらえることをたくさん行っていく予定です！
+          </p>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <!-- <p class="footer-link link-white-pink">
+          <a href="http://meidaisai.jp/136" target="_blank"
+            >第136回明大祭公式サイト</a
+          >
+          /
+          <a href="https://twitter.com/meidaisai" target="_blank">Twitter</a>
+          /
+          <a href="https://www.instagram.com/meidaisai/" target="_blank"
+            >Instagram</a
+          >
+          /
+          <a href="https://ameblo.jp/meidaisai/" target="_blank">ブログ</a>
+        </p>
+        <p class="footer-copy">&copy; 2021 第137回明大祭実行委員会</p> -->
+      </footer>
+    </div>
+    <!-- /.sakura-wrapper -->
+
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles_set.js"></script>
+
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.body.oncontextmenu = "return false;";
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

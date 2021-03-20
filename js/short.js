@@ -1,0 +1,72 @@
+function menu() {
+  document.write(
+    '<div class="drawer-toggle drawer-hamburger">\
+<div class="menu-btn">\
+<div class="menu-line">\
+<span></span>\
+<span></span>\
+<span></span>\
+</div>\
+</div>\
+</div>\
+<nav class="drawer-nav" role="navigation">\
+<ul class="drawer-menu">\
+<!-- <li><a class="drawer-brand" href="#">Brand</a></li> -->\
+<li><a class="drawer-menu-item" href="index.html">ホーム</a></li>\
+<li>\
+<a class="drawer-menu-item" href="about.html">明大祭とは</a>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="committee.html"\
+>明大祭実行委員会とは</a\
+>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="introduction.html">局紹介</a>\
+</li>\
+<!-- <li>\
+<a class="drawer-menu-item" href="newmember.html"\
+>新メンバー募集！</a\
+> -->\
+</li>\
+<!-- <li>\
+<a class="drawer-menu-item" href="write-es.html"\
+>エントリーシートの書き方</a\
+>\
+</li> -->\
+<!-- <li>\
+<a class="drawer-menu-item" href="bureautest.html">適性局診断</a>\
+</li> -->\
+<li>\
+<a class="drawer-menu-item" href="meijitsulife.html"\
+>明大祭実行委員の日常</a\
+>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="photo.html">昨年度の様子</a>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="question.html">よくある質問</a>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="participants.html"\
+>参加・協賛をお考えのみなさまへ</a\
+>\
+</li>\
+<li>\
+<a class="drawer-menu-item" href="contact.html">お問い合わせ</a>\
+</li>\
+</ul>\
+<a class="icon" href="https://twitter.com/meidaisai" target="_blank">\
+<i class="fab fa-twitter awesome-icon twitter-icon"></i\
+></a>\
+<a class="icon" href="https://www.instagram.com/meidaisai/" target="_blank">\
+<i class="fab fa-instagram awesome-icon instagram-icon"></i\
+></a>\
+<a class="icon" href="https://ameblo.jp/meidaisai/" target="_blank">\
+<i class="fas fa-blog awesome-icon blog-icon"></i\
+></a>\
+</nav>\
+'
+  );
+}

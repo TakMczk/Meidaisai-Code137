@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>参加団体局紹介</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/short.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148349580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148349580-1");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="drawer drawer--right">
+    <script>
+      $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+  </script>
+
+    <div class="sakura-wrapper">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+      <div class="menu-under"></div>
+
+      <script>
+        menu();
+      </script>
+      <header class="header">
+        <a class="header-logo" href="index.html"
+          ><img src="img/logo.png" alt="ヘッダーロゴ"
+        /></a>
+      </header>
+
+      <div class="main-content">
+        <h1 class="title">参加団体局紹介</h1>
+        <div class="main-text">
+          <img
+            class="big-img"
+            src="./img/sankadantai.jpg"
+            alt="参加団体局の写真"
+          />
+          <h2 class="sub-title">参加団体局の役割</h2>
+          <p>
+            明大祭で企画を行うサークル・ゼミ・体育会・体同連・有志団体・個人などの様々な参加団体に対して、自分たちの「やりたい」を明大祭で100％、いや120％発揮できるように、サポートしていく局です。月に1回程度、説明会を行い、参加団体に寄り添いながら、明大祭まで準備を進めます。今までサポートをしてきた参加団体が明大祭当日に、輝いている姿を間近で見られる参加団体局は「やりがい」を得られないはずがありません！
+          </p>
+          <h2 class="sub-title">参加団体局が会議でやること</h2>
+          <p>
+            参加団体の魅力をより引き出すために話し合い、日々の活動に繋げています。また、参加団体が明大祭に出て良かったと思えるような働きかけを考えていきます！
+          </p>
+          <h2 class="sub-title">参加団体局の会議日</h2>
+          <p>
+            局会議：毎週木曜日19:00～<br />
+            部門会議：毎週火曜日19:00～
+          </p>
+
+          <h2 class="sub-title">レクの様子</h2>
+          <img
+            class="big-img"
+            src="./img/sankadantai_rec.jpg"
+            alt="参加団体局のレク"
+          />
+          <p>
+            参加団体局は、1か月に1・2回程度、いろいろなところへ遊びに行きます。1・2年を中心にレク考案を行い、1年生から3年生まで全員が楽しんでいます。参加団体局でキャンパスライフを楽しもう！
+          </p>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <!-- <p class="footer-link link-white-pink">
+          <a href="http://meidaisai.jp/136" target="_blank"
+            >第136回明大祭公式サイト</a
+          >
+          /
+          <a href="https://twitter.com/meidaisai" target="_blank">Twitter</a>
+          /
+          <a href="https://www.instagram.com/meidaisai/" target="_blank"
+            >Instagram</a
+          >
+          /
+          <a href="https://ameblo.jp/meidaisai/" target="_blank">ブログ</a>
+        </p>
+        <p class="footer-copy">&copy; 2021 第137回明大祭実行委員会</p> -->
+      </footer>
+    </div>
+    <!-- /.sakura-wrapper -->
+
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles_set.js"></script>
+
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.body.oncontextmenu = "return false;";
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

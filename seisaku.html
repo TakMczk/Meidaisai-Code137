@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>制作局紹介</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/short.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148349580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148349580-1");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="drawer drawer--right">
+    <script>
+      $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+  </script>
+
+    <div class="sakura-wrapper">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+      <div class="menu-under"></div>
+
+      <script>
+        menu();
+      </script>
+      <header class="header">
+        <a class="header-logo" href="index.html"
+          ><img src="img/logo.png" alt="ヘッダーロゴ"
+        /></a>
+      </header>
+
+      <div class="main-content">
+        <h1 class="title">制作局紹介</h1>
+        <div class="main-text">
+          <img class="big-img" src="./img/seisaku.jpg" alt="制作局の写真" />
+          <h2 class="sub-title">制作局の役割</h2>
+          <p>
+            制作局は、「デザイン」という分野から明大祭をより良くしていく役割を担っています。<br />明大祭の情報を伝えるWebサイトやパンフレットをはじめ、キャンパスを彩る装飾物、メインステージで映し出される動画など、明大祭に関わるさまざまな「モノ」を制作しています！<br />
+            IllustratorやPhotoshopなどの本格的なソフトウェアの使い方や制作のコツを、先輩が一から丁寧に教えます。普通の大学生活ではなかなか経験できないことに挑戦してみませんか？
+          </p>
+          <h2 class="sub-title">制作局が会議でやること</h2>
+          <p>
+            制作局の会議では、明大祭の成功のためにはどのような制作物が必要なのか、どうすればより良い制作物が作れるのかといったことを話し合っています。また、制作活動で必要となる写真を撮影するために、一眼レフカメラの使用方法や良い写真を撮影するコツを学んでいます。<br />
+            さらに、制作媒体によって分かれた部門ごとの会議では、より専門性を高め、媒体の持つ特徴をどう生かすか研究しています。
+          </p>
+          <h2 class="sub-title">制作局の会議日</h2>
+          <p>
+            局会議：毎週木曜日19:00〜<br />
+            部門会議：毎週月、火、水曜日のいずれか19:00〜<br />
+            ※制作局には4部門あり、部門によって曜日が異なります。
+          </p>
+
+          <h2 class="sub-title">レクの様子</h2>
+          <img class="big-img" src="./img/seisaku_rec.jpg" alt="制作局のレク" />
+          <p>
+            制作局では、主に2年生が中心になってレクを計画し、1年生から3年生まで全員が楽しんでいます！<br />
+            例年、お花見やテーマパーク、花火大会といった定番イベントから、富士登山や川遊び、深夜にただひたすら歩く会など、珍しいイベントもたくさん行っています。各学期の中頃に行われる合宿だけでなく、夏休みにもバーベキューや海水浴をしに泊まりに行くのは一大イベントです！<br />
+            今年も様々なレクを企画する予定です！
+          </p>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <!-- <p class="footer-link link-white-pink">
+          <a href="http://meidaisai.jp/136" target="_blank"
+            >第136回明大祭公式サイト</a
+          >
+          /
+          <a href="https://twitter.com/meidaisai" target="_blank">Twitter</a>
+          /
+          <a href="https://www.instagram.com/meidaisai/" target="_blank"
+            >Instagram</a
+          >
+          /
+          <a href="https://ameblo.jp/meidaisai/" target="_blank">ブログ</a>
+        </p>
+        <p class="footer-copy">&copy; 2021 第137回明大祭実行委員会</p> -->
+      </footer>
+    </div>
+    <!-- /.sakura-wrapper -->
+
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles_set.js"></script>
+
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.body.oncontextmenu = "return false;";
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

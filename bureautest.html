@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>適性局診断</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/short.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148349580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148349580-1");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="drawer drawer--right">
+    <script>
+      $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+  </script>
+
+    <div class="sakura-wrapper">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+      <div class="menu-under"></div>
+
+      <script>
+        menu();
+      </script>
+      <header class="header">
+        <a class="header-logo" href="index.html"
+          ><img src="img/logo.png" alt="ヘッダーロゴ"
+        /></a>
+      </header>
+
+      <div class="main-content">
+        <h1 class="title">適性局診断</h1>
+        <div class="main-text link-blue">
+          <p>
+            明大祭実行委員会は活動を円滑にするため、9つの局に分かれて活動しています。<br />
+            たくさんの局があるため、どこの局を志望しようか迷っていませんか？<br />
+            この診断で自分がどこの局に適しているか確かめてみよう！
+          </p>
+          <p>
+            局について詳しく知りたい方は「<a href="introduction.html">局紹介</a
+            >」ページをご覧ください！
+          </p>
+
+          <div class="choose_box">
+            <div class="no_choose" id="q_00">
+              <p style="opacity: 0; visibility: hidden;">質問</p>
+              <span><a class="btn #q_01">START</a></span>
+            </div>
+            <!-- 最初の選択肢 -->
+
+            <div id="q_01" style="display: none;">
+              <p class="question">金魚すくいは得意？</p>
+              <ul>
+                <li class="even"><a class="btn #q_02">Yes</a></li>
+                <li class="odd"><a class="btn #q_03">No</a></li>
+              </ul>
+            </div>
+            <!-- 最初の選択肢 -->
+
+            <div id="q_02" style="display: none;">
+              <p class="question">パズルは得意？</p>
+              <ul>
+                <li class="even"><a class="btn #a_01">Yes</a></li>
+                <li class="odd"><a class="btn #q_04">No</a></li>
+              </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+            <div id="q_03" style="display: none;">
+              <p class="question">謎解きは好き？</p>
+              <ul>
+                <li class="even"><a class="btn #a_04">Yes</a></li>
+                <li class="odd"><a class="btn #q_05">No</a></li>
+              </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+            <div id="q_04" style="display: none;">
+              <p class="question">
+                レストランでバイトをするならホール？キッチン？
+              </p>
+              <ul>
+                <li class="even"><a class="btn #a_02">ホール</a></li>
+                <li class="odd"><a class="btn #a_03">キッチン</a></li>
+              </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+            <div id="q_05" style="display: none;">
+              <p class="question">面倒見がいい？</p>
+              <ul>
+                <li class="even"><a class="btn #a_05">Yes</a></li>
+                <li class="odd"><a class="btn #q_06">No</a></li>
+              </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+            <div id="q_06" style="display: none;">
+              <p class="question">好きなものは最後に食べる？</p>
+              <ul>
+                <li class="even"><a class="btn #a_06">Yes</a></li>
+                <li class="odd"><a class="btn #a_07">No</a></li>
+              </ul>
+            </div>
+            <!-- 次の選択肢 -->
+
+            <div class="no_choose" id="a_01" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>財務局、制作局、総務局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え1 -->
+
+            <div class="no_choose" id="a_02" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>参加団体局、渉外局、総務局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え2 -->
+
+            <div class="no_choose" id="a_03" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>運営局、財務局、渉外局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え3 -->
+
+            <div class="no_choose" id="a_04" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>演出局、開発局、広報局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え4 -->
+
+            <div class="no_choose" id="a_05" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>開発局、広報局、参加団体局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え5 -->
+
+            <div class="no_choose" id="a_06" style="display: none;">
+              <p>あなたが適しているのは</p>
+              <h4>運営局、演出局、制作局です！<br /></h4>
+              <p>
+                この局について詳しく知りたい方は「<a href="introduction.html"
+                  >局紹介</a
+                >」ページをご覧ください！
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え6 -->
+
+            <div class="no_choose" id="a_07" style="display: none;">
+              <p style="opacity: 0; visibility: hidden;">
+                あなたが適しているのは
+              </p>
+              <h4>あなたはどこの局でも活躍できます！<br /></h4>
+              <p>
+                「<a href="introduction.html">局紹介</a
+                >」ページから自分の理想の局を探しませんか？
+              </p>
+              <span><a class="btn #q_00">もどる</a></span>
+            </div>
+            <!-- 答え7 -->
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer">
+        <!-- <p class="footer-link link-white-pink">
+          <a href="http://meidaisai.jp/136" target="_blank"
+            >第136回明大祭公式サイト</a
+          >
+          /
+          <a href="https://twitter.com/meidaisai" target="_blank">Twitter</a>
+          /
+          <a href="https://www.instagram.com/meidaisai/" target="_blank"
+            >Instagram</a
+          >
+          /
+          <a href="https://ameblo.jp/meidaisai/" target="_blank">ブログ</a>
+        </p>
+        <p class="footer-copy">&copy; 2021 第137回明大祭実行委員会</p> -->
+      </footer>
+    </div>
+    <!-- /.sakura-wrapper -->
+
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles_set.js"></script>
+
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.body.oncontextmenu = "return false;";
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>お知らせ</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./js/short.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-148349580-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-148349580-1");
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="drawer drawer--right">
+    <script>
+      $(function () {
+          $("#header").load("header.html");
+          $("#footer").load("footer.html");
+      });
+  </script>
+
+    <div class="sakura-wrapper">
+      <!-- particles.js container -->
+      <div id="particles-js"></div>
+      <div class="menu-under"></div>
+
+      <script>
+        menu();
+      </script>
+      <header class="header">
+        <a class="header-logo" href="index.html"
+          ><img src="img/logo.png" alt="ヘッダーロゴ"
+        /></a>
+      </header>
+
+      <div class="main-content">
+        <h1 class="title">お知らせ</h1>
+        <div class="main-text link-blue">
+          <p class="news-sentence">
+            2020/04/24(金)<br />
+            「<a href="bureautest.html">適性局診断</a>」
+            ページをオープンしました。
+          </p>
+          <p class="news-sentence">
+            2020/04/24(金)<br />
+            「<a href="newmember.html">新メンバー募集！</a>」「<a
+              href="question.html"
+              >よくある質問</a
+            >」「<a href="to_meidaisei.html">明大生のみなさまへ</a>」<br />「<a
+              href="to_company.html"
+              >企業のみなさまへ</a
+            >」ページを更新しました。
+          </p>
+          <p class="news-sentence">
+            2020/04/23(木)<br />
+            「<a href="newmember.html">新メンバー募集！</a
+            >」ページを更新しました。
+          </p>
+          <p class="news-sentence">
+            2020/04/11(土)<br />
+            「<a href="newmember.html">新メンバー募集！</a
+            >」ページを更新しました。
+          </p>
+          <p class="news-sentence">
+            2020/04/03(金)<br />
+            「<a href="contact.html">お問い合わせ</a>」ページを更新しました。
+          </p>
+          <p class="news-sentence">
+            2020/03/31(火)<br />第136回明大祭新歓特設サイトがオープンしました。
+          </p>
+          <!-- <h2 class="sub-title">
+            2020/3/31(火) 第136回明大祭新歓特設サイトがオープンしました。
+          </h2> -->
+        </div>
+      </div>
+
+      <footer id="footer">
+        <!-- <p class="footer-link link-white-pink">
+          <a href="http://meidaisai.jp/136" target="_blank"
+            >第136回明大祭公式サイト</a
+          >
+          /
+          <a href="https://twitter.com/meidaisai" target="_blank">Twitter</a>
+          /
+          <a href="https://www.instagram.com/meidaisai/" target="_blank"
+            >Instagram</a
+          >
+          /
+          <a href="https://ameblo.jp/meidaisai/" target="_blank">ブログ</a>
+        </p>
+        <p class="footer-copy">&copy; 2021 第137回明大祭実行委員会</p> -->
+      </footer>
+    </div>
+    <!-- /.sakura-wrapper -->
+
+    <script src="./js/particles.min.js"></script>
+    <script src="./js/particles_set.js"></script>
+
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+      document.body.oncontextmenu = "return false;";
+    </script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
