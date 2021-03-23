@@ -24,10 +24,10 @@ function menu() {
 <li>\
 <a class="drawer-menu-item" href="introduction.html">局紹介</a>\
 </li>\
-<!-- <li>\
+<li>\
 <a class="drawer-menu-item" href="newmember.html"\
 >新メンバー募集！</a\
-> -->\
+>\
 </li>\
 <!-- <li>\
 <a class="drawer-menu-item" href="write-es.html"\
