@@ -120,6 +120,27 @@ img {
   background-color: #ffe5e54f;
 }
 
+.headerv2 {
+  height: 22vh;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  margin-bottom: 2.5vw;
+}
+
+.headerv2-logo {
+  width: 40vw;
+  position: absolute;
+  top: 50%;
+  margin-left: 8vw;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  box-shadow: #414141;
+  background-color: #ffe5e54f;
+}
+
+
 .photo-show {
   /*    height: 800px; 表示したい大きさ*/
   height: 33.5vw;
@@ -343,7 +364,7 @@ img {
 */
 .awesome-icon {
   color: #fff;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .awesome-icon {
@@ -357,19 +378,19 @@ img {
 
 .twitter-icon {
   position: absolute;
-  bottom: 35vh;
+  bottom: 26vh;
   right: 5.2vw;
 }
 
 .instagram-icon {
   position: absolute;
-  bottom: 25vh;
+  bottom: 17vh;
   right: 5.7vw;
 }
 
 .blog-icon {
   position: absolute;
-  bottom: 15vh;
+  bottom: 8vh;
   right: 5vw;
 }
 
@@ -1175,6 +1196,11 @@ canvas {
 .main-text .big-img {
   width: 80%;
   margin-left: 10%;
+}
+
+.main-text .big-img2 {
+  width: 40%;
+  margin-left: 30%;
 }
 
 .main-text .question-table td {
