@@ -114,7 +114,7 @@ img {
   width: 40vw;
   position: absolute;
   top: 50%;
-  margin-left: 8vw;
+  margin-left: 5vw;
   transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   background-color: #ffe5e54f;
@@ -1166,6 +1166,17 @@ canvas {
   margin-top: 2rem;
 }
 
+.main-content .main-text img + p {
+  margin-top: 0.5em;
+}
+
+.main-content .main-text p .attention{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10%;
+  margin-bottom: 0.5em;
+}
+
 .main-text img + table {
   margin-top: 2rem;
 }
@@ -1196,6 +1207,7 @@ canvas {
 .main-text .big-img {
   width: 80%;
   margin-left: 10%;
+  margin-bottom: none;
 }
 
 .main-text .big-img2 {
@@ -1533,4 +1545,14 @@ h4 {
 .question {
   margin-bottom: 7vh !important;
   font-size: calc(0.8rem + 1.2vw) !important;
+}
+
+.two-images{
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.main-text .vertical-imgs{
+  width: 45%;
+  margin-left: 3.5%;
 }
