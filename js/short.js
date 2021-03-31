@@ -22,7 +22,7 @@ function menu() {
 >\
 </li>\
 <li>\
-<a class="drawer-menu-item" href="introduction.html">局紹介</a>\
+<a class="drawer-menu-item" href="introduction.html">各局紹介</a>\
 </li>\
 <li>\
 <a class="drawer-menu-item" href="newmember.html"\
@@ -43,16 +43,16 @@ function menu() {
 >\
 </li>\
 <li>\
-<a class="drawer-menu-item" href="photo.html">昨年度の様子</a>\
+<a class="drawer-menu-item" href="photo.html">一昨年度・昨年度の様子</a>\
 </li>\
 <li>\
 <a class="drawer-menu-item" href="question.html">よくある質問</a>\
 </li>\
-<li>\
+<!--<li>\
 <a class="drawer-menu-item" href="participants.html"\
 >参加・協賛をお考えのみなさまへ</a\
 >\
-</li>\
+</li>-->\
 <li>\
 <a class="drawer-menu-item" href="contact.html">お問い合わせ</a>\
 </li>\
