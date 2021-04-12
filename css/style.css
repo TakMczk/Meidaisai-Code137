@@ -1602,12 +1602,19 @@ h4 {
 }
 
 .two-images{
+  display: -webkit-box;
   display: flex;
+  /* justify-content: stretch; */
   margin-bottom: 2em;
+
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.main-text .vertical-imgs{
+.vertical-imgs{
   width: 45%;
+  height: auto;
   margin-left: 3.5%;
 }
 
@@ -1636,4 +1643,8 @@ h4 {
   border-color: #ff9999;
   background-color: #f3f4f5;
   color: #000;
+}
+
+.table-company{
+  padding-left: 0.5em;
 }
