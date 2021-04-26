@@ -1652,3 +1652,24 @@ h4 {
 .table-company{
   padding-left: 0.5em;
 }
+
+.two-images .vertical-imgs p{
+  position: absolute;
+  transform: translateY(-60px);
+  width: 25%;
+  padding: 1em;
+  margin: 0 1%;
+  text-align: center;
+  color: #fff;
+  background: rgb(195, 218, 142);
+}
+
+.two-images .vertical-imgs :hover {
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.two-images .vertical-imgs p:hover {
+  color: rgb(0, 0, 0);
+  background: rgba(195, 218, 142, 0.938);
+  transition: 0.3s;
+}
